@@ -14,7 +14,7 @@
   
   
 ## WEB x CRYPTO
-- HackEmAll Next-Gen Proxy: The Leadingproxy Service
+- HackEmAll Next-Gen Proxy: The Leadingproxy Service: 995 points
   - Challenges: http://172.104.54.191:31337/
   - Backup mirror: 
     - http://45.118.132.76:31337/
